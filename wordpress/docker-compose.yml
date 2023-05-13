@@ -55,7 +55,7 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - wordpress:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email hello@christandjinson.co.uk --agree-tos --no-eff-email --force-renewal -d christandjinson.co.uk -d www.christandjinson.co.uk
+    command: certonly --webroot --webroot-path=/var/www/html --email sammy@christandjinson.co.uk --agree-tos --no-eff-email --force-renewal -d christandjinson.co.uk -d www.christandjinson.co.uk
 
 volumes:
   certbot-etc:
